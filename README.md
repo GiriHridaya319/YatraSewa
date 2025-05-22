@@ -70,7 +70,16 @@ Ensure the following are installed:
 
 ## 📸 Screenshots
 
-> Add screenshots here (e.g., search buses, seat selection, admin panel).
+![image](https://github.com/user-attachments/assets/7c125755-ff44-424f-ae82-0b66adf7a6dd)
+![image](https://github.com/user-attachments/assets/45cbde18-d0c2-482d-9404-4a529e73a6ec)
+![image](https://github.com/user-attachments/assets/5f561a26-e4bf-4fa2-bb5d-316b3f5266a7)
+![image](https://github.com/user-attachments/assets/637e820f-615a-44c7-bcba-28ff0338b56c)
+![image](https://github.com/user-attachments/assets/06b23a2b-2972-4dc1-988e-c09519b5a4d0)
+![image](https://github.com/user-attachments/assets/942d9120-71ac-4cbc-8c7b-600e71fe732d)
+
+
+
+
 
 ---
 
