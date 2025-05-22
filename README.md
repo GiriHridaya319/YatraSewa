@@ -89,7 +89,7 @@ Ensure the following are installed:
 
 * [Hridaya Giri](https://github.com/GiriHridaya319) – Full-stack development, integration
 * [Yug Tamang](https://github.com/Yug123456789) – Frontend developer
-* [Ashma Maharjan](https://github.com/teammate2) – Frontend developer
+* [Ashma Maharjan](https://github.com/Ashmamaharjan) – Frontend developer
 
 ---
 
