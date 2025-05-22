@@ -46,7 +46,7 @@ Ensure the following are installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/YatraSewa.git
+   git clone https://github.com/GiriHridaya319/YatraSewa.git
 
 
 2. **Database setup:**
