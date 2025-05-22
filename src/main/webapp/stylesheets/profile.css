@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f7fa;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1a73e8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-btn:hover,
+.sidebar-btn.active {
+    background-color: #0056b3;
+}
+
+.profile-form {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.profile-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.profile-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.submit-btn {
+    padding: 10px;
+    border: none;
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.password-form {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.password-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.password-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.password-form input {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.update-btn {
+    padding: 12px;
+    border: none;
+    background-color: #1a73e8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+    background-color: #00509e;
+}

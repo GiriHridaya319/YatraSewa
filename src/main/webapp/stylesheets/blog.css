@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+
+/* Main booking container for the seat map and info panel */
+.booking-container {
+    display: flex;
+    gap: 10px; /* Space between seat map and boarding info */
+}
+
+/* Seat Map Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+/* Seat Map */
+.seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+/* Seat Map Layout */
+.seat-layout {
+    display: flex;
+    gap: 60px; /* Large gap between the two column groups */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* Adjust this value for more or less space between seats */
+}
+
+
+.column-group {
+    display: flex;
+    gap: 8px; /* Small gap between columns A-B and C-D */
+}
+
+/* Individual Seat Styling */
+.seat {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.booked {
+    background-color: #d3d3d3;
+}
+
+.available {
+    background-color: #3b82f6;
+}
+
+.selected {
+    background-color: #fb923c;
+}
+
+
+/* Seat Legend */
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.legend-item {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+.legend-item.booked {
+    background-color: #d3d3d3;
+}
+
+.legend-item.available {
+    background-color: #3b82f6;
+}
+
+.legend-item.selected {
+    background-color: #fb923c;
+}
+
+/* Info Panel for Boarding Point, Seat Info, and Continue Button */
+.info-panel {
+    width: 250px; /* Fixed width for the info panel */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-panel h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.boarding-point {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.info-panel p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #10b981;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Adjusted spacing and positioning */
+
+
