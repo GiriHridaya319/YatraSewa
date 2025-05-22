@@ -47,7 +47,7 @@ Ensure the following are installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/YatraSewa.git
-````
+
 
 2. **Database setup:**
 
@@ -88,12 +88,10 @@ Ensure the following are installed:
 
 This project is licensed under the [MIT License](LICENSE).
 
----
+
 
 ## 💬 Feedback
 
 Found a bug or have suggestions? [Open an issue](https://github.com/yourusername/YatraSewa/issues) or submit a pull request.
 
-```
 
-```
