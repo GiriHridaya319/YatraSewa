@@ -1,8 +1,4 @@
-Great! Based on your updated tech stack and contributors, here is your **final `README.md`**:
 
----
-
-````markdown
 # 🚌 YatraSewa – Bus Ticket Booking System
 
 **YatraSewa** is a role-based bus ticket booking system where users can search and book buses, agents can add listings, and admins manage approvals and overall system control.
